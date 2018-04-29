@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dbea96b7-c897-4860-aa87-a93cb9e3c9cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>listMethodExamples.py</StartupFile>
+    <StartupFile>listOfSquares.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="listMethodExamples.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="listOfSquares.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueueExample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="stackExample.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
